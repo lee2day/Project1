@@ -4,5 +4,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="message_2week">SMS 메시지 보내기</string>
+    <string name="txt01">2주 팀별 과제\n  1.조별 각 과제 수행하기\n  2.git에  push 하기</string>
+    <string name="make_database">DB 저장, 목록 만들기</string>
+    <string name="send_mail">파일첨부 하여 메일 발송하기</string>
 
 </resources>
