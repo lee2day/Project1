@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry kind="lib" path="D:/android-sdks/platforms/android-16/android.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/HelloWorld"/>
+	<classpathentry kind="lib" path="libs/android.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
