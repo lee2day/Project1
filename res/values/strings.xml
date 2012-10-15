@@ -8,5 +8,14 @@
     <string name="txt01">2주 팀별 과제\n  1.조별 각 과제 수행하기\n  2.git에  push 하기</string>
     <string name="make_database">DB 저장, 목록 만들기</string>
     <string name="send_mail">파일첨부 하여 메일 발송하기</string>
-
+    
+<!-- 메일발송 메인화면 -->
+	<string name="activity_mail">MailActivity</string>
+	<string name="mail_text">편지쓰기</string>
+	<string name="mail_send">전송</string>
+	<string name="mail_attach">첨부</string>
+	<string name="mail_sender">보낸사람</string>
+	<string name="mail_receiver">받는사람</string>
+	<string name="mail_title">제목</string>
+	<string name="mail_content">편지쓰기</string>
 </resources>
