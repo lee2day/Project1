@@ -12,17 +12,22 @@ import android.view.View.OnClickListener;
 
 import android.content.Intent;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnClickListener {
 
-	// 이벤트 리스너 인터페이스 멥버 변수 선언 및 정의
-	private OnClickListener btn3_click_listener = new OnClickListener() {
-		public void onClick(View v) {
+	// OnClick 이벤트 처리
+	public void onClick(View v) {
+		switch(v.getId()) {
+		case R.id.button03 :
 			// 다음 activity 실행 요청
 			startActivity(new Intent(MainActivity.this, MailActivity.class));
 			// 애니메이션 효과 (fade in)
 			overridePendingTransition(R.anim.fade, R.anim.hold);
+			break;
+			
+		default :
+			break;
 		}
-	};
+	}
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,7 +37,7 @@ public class MainActivity extends Activity {
         // 리소스에 정의되어 있는 버튼 ID
         Button button03 = (Button)findViewById(R.id.button03);
         // 버튼에 멤버변수 리스너 설정
-        button03.setOnClickListener(btn3_click_listener);
+        button03.setOnClickListener(this);
     }
 
     @Override
