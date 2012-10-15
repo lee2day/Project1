@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name="MailActivity"
+            android:label="@string/activity_mail">
+        </activity>
     </application>
 
 </manifest>
