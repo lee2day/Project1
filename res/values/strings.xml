@@ -12,10 +12,10 @@
 <!-- 메일발송 메인화면 -->
 	<string name="activity_mail">MailActivity</string>
 	<string name="mail_text">편지쓰기</string>
+	<string name="mail_title">제목</string>
 	<string name="mail_send">편지전송</string>
 	<string name="mail_attach">파일첨부</string>
 	<string name="mail_sender">보낸사람</string>
 	<string name="mail_receiver">받는사람</string>
-	<string name="mail_title">제목</string>
-	<string name="mail_content">편지쓰기</string>
+	<string name="mail_content">내용</string>
 </resources>

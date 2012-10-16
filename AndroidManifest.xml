@@ -25,5 +25,8 @@
             android:label="@string/activity_mail">
         </activity>
     </application>
+    
+    <permission android:name="android.permission.INTERNET" />
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

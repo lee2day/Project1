@@ -4,16 +4,13 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.view.View.OnClickListener;
 
 import android.content.Intent;
 
 public class MainActivity extends Activity implements OnClickListener {
-
 	// OnClick 이벤트 처리
 	public void onClick(View v) {
 		switch(v.getId()) {
